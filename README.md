@@ -1,1 +1,1 @@
-# Python_course
+# Курс по Python на sтепике Х)
