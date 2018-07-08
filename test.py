@@ -1,9 +1,9 @@
-i = 0
-s = 0
-while i < 10:
-    i = i + 1
-    s = s + i
-    if s > 15:
-        continue
-    i = i + 1
-print(i)
+s = 'abcdefghijk'
+a1 = s[3:6]
+a2 = s[:6]
+a3 = s[3:]
+a4 = s[::-1]
+a5 = s[-3:]
+a6 = s[:-6]
+a7 = s[-1:-10:-2]
+print(a1, a2, a3, a4, a5, a6, a7)
