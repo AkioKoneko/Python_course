@@ -4,7 +4,7 @@ if(len(a) == 1):
     print(a[0])
 else:
     for i in range(len(a)):
-        print((a[i - 1] + a[(i + 1) - len(a)]), end=" ")
+        print((a[i - 1] + a[i + 1 - len(a)]), end=" ")
 
 """
 a.insert(0, a[-1])
