@@ -10,6 +10,7 @@ for key in a:
 for key, value in b.items():
     print(key, value)
 
+# Ну типо я умный дофига - аргументы командной строки вывожу
 import sys
 for i in sys.argv:
     if(sys.argv.index(i) != 0):
