@@ -9,3 +9,8 @@ for key in a:
 
 for key, value in b.items():
     print(key, value)
+
+import sys
+for i in sys.argv:
+    if(sys.argv.index(i) != 0):
+        print(i)
