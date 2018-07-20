@@ -1,19 +1,11 @@
 lst = {}
 output1 = ''
 output2 = ''
+a, b, c, d = [], [], [], []
 
-a = []
-for i in input():
-    a += i
-b = []
-for i in input():
-    b += i
-c = []
-for i in input():
-    c += i
-d = []
-for i in input():
-    d += i
+for x in (a, b, c, d):
+    for i in input():
+        x += i
 
 for i in range(len(a)):
     lst[a[i]] = b[i]
