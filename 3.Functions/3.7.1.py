@@ -1,4 +1,3 @@
-# Чтение стандартного ввода
 n = int(input())
 inputlst = []
 for i in range(n):
