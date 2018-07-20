@@ -7,12 +7,18 @@ for i in range(n):
 outputlst = {}
 for i in range(n):
     for j in 0, 2:
+<<<<<<< HEAD
         outputlst[inputlst[i][j]] = [0, 0, 0, 0, 0]
+=======
+        outputlst[inputlst[i][j]] = [0,0,0,0,0]
+
+>>>>>>> 3e05ef10e5d3732e2f75eb9fd90edb50f7b4b247
 
 # Количество побед
 for i in range(n):
     for j in 0, 2:
         outputlst[inputlst[i][j]][0] += 1
+<<<<<<< HEAD
 
 # Победы, поражения, ничьи
 for i in range(n):
@@ -33,3 +39,9 @@ for i in range(n):
 for key in outputlst:
     print(key, end=':')
     print(*outputlst[key])
+=======
+
+print(outputlst)
+
+#нихуя не работает пойду отдохну
+>>>>>>> 3e05ef10e5d3732e2f75eb9fd90edb50f7b4b247
