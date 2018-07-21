@@ -11,4 +11,4 @@ for key in d:
     if len(d[key]) != 0:
         print(key,sum(d[key]) / len(d[key]))
     else:
-        print(key,'-\n')
+        print(key,'-')
