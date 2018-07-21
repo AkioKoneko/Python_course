@@ -9,8 +9,6 @@ with open("input.txt", "r", encoding='utf-8') as input:
 print(d)
 for key in d:
     if len(d[key]) != 0:
-        print(key, end=' ')
-        print(sum(d[key]) / len(d[key]))
+        print(key,sum(d[key]) / len(d[key]))
     else:
-        print(key, end=' -')
-        print()
+        print(key,'-\n')
